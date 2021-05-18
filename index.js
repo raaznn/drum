@@ -3,8 +3,9 @@ document.addEventListener(
   () => {
     var name = event.key;
     var beat = document.getElementById(name.toUpperCase());
-    beat.play();
-    document.getElementById("display").innerHTML = beat.parentElement.id;
+    // beat.play();
+    // document.getElementById("display").innerHTML = beat.parentElement.id;
+    beat.parentElement.click();
   },
   false
 );

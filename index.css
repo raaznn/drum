@@ -1,14 +1,24 @@
-.drum-pad {
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  border: 3px solid grey;
-  margin: -5px;
+#drum-machine {
+  margin: auto;
+}
+#drum-set {
+  /* width: 350px;
+  height: 350px; */
+  /* transform: rotate(90deg); */
+  /* background-color: purple; */
 }
 
-#drum-set {
-  width: 350px;
-  height: 350px;
-  /* transform: rotate(90deg); */
-  background-color: purple;
+.drum-pad {
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fclipart-library.com%2Fimg%2F1859383.png&f=1&nofb=1);
+  background-position: center;
+  background-size: contain;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: none;
+  background-color: inherit;
+}
+
+.drum-pad:active {
+  transform: translateY(4px);
 }
