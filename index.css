@@ -1,11 +1,11 @@
 #drum-machine {
-  margin: auto;
+  background-color: black;
 }
 #drum-set {
-  /* width: 350px;
-  height: 350px; */
-  /* transform: rotate(90deg); */
-  /* background-color: purple; */
+  background-color: darkred;
+  padding: 30px;
+  margin: auto;
+  display: inline-block;
 }
 
 .drum-pad {
